@@ -34,7 +34,6 @@ def passwordGenerator(): #Begin Password Function
         digits_counts = rest_division +1
         specialC_count = rest_division
     
-        specialC_count = rest_modulo
     if length >=6 and rest_modulo ==0 and rest_division >=2: # captures all length values which are >=6 & when divided by 3 produces a wholenumber that is >=2, with a rest value 0 :(6,9,12,15,18)
         alphabets_count = rest_division
         digits_counts = rest_division
