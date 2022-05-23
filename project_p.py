@@ -9,7 +9,7 @@ specialC = list("@#$=+-%*") # Declare a list of string special characters(Symbol
 counter = 0 # global variable declaration
 
 def passwordGenerator(): #Begin Password Function
-    global counter # references global variable *counter*
+    global counter # references global variable "counter"
 
     specialC_count = digits_counts = alphabets_count = 0 # local variable declaration
 
