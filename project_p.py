@@ -60,7 +60,7 @@ def permittedPasswordLength(length):  # if length < 6 then go back to the begini
 
 def intro_message():
     global counter # references global variable "counter"
-    print("Welcome to Rahul_group Password Generator!!")
+    print("Welcome to Password Generator!!")
     username = input("Enter username:")
     groupname = input("Enter groupname:")
     print("Hello",username,"this Password Generator project was done by",groupname)
